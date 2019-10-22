@@ -34,3 +34,19 @@ images文件夹用来集中存储项目中需要的图片文件。
 
 package.json是node.js的安装配置文件，在安装后端依赖时必须有这个文件作为指引，来安装所需的node文件。
 
+3.react页面铺写
+
+首先，react是由js来完成页面编写的而那些js中带有html标签的奇怪语法需要通过reactdom以及babel进行编译。
+
+在创建一张页面之后首先需要引入React以及其中的Component组件代码，以下列代码为例：
+
+![1571733059723](C:\Users\john\AppData\Roaming\Typora\typora-user-images\1571733059723.png)
+
+这就是一个简单的页面，当然你也可以往里面继续添加标签来使整个页面变得更加完整。
+
+在jsx语法的使用中html部分需要中如果需要插入js则需要添加｛｝见js语句阔在里面。同时，平时html中使用class在jsx中被替换为className。
+
+注意：在jsx语法中所有标签都必须要有结束标签，不然会报错，如果是单标签那么可以在单标签末尾添加斜杠<a/>来结束。
+
+4.react组件编写与使用
+

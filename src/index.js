@@ -10,8 +10,8 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
         <Router>
-            <Route path="/" component={App} exact />
-            <Route path="/JsxCom" component={JsxCom}/>
+            <Route path="/" component={App} exact/>
+            <Route path="/JsxCom" component={JsxCom} exact/>
         </Router>
         , document.getElementById('root')
     );
